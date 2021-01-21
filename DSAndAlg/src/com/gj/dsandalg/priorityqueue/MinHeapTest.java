@@ -1,34 +1,40 @@
 package com.gj.dsandalg.priorityqueue;
 
+import com.gj.dsandalg.heap.MinHeap;
+
 import java.util.List;
-import java.util.concurrent.PriorityBlockingQueue;
 
 /**
  * @author guojie
  * <p>
- * Java 自带的PriporityQueue
  */
-public class BlockingPriorityQueueInJava {
+public class MinHeapTest {
 
     public static void main(String[] args) {
-
         List<Student> studentList = Student.getTestList();
 
-        PriorityBlockingQueue<Student> studentsQueue = new PriorityBlockingQueue<Student>(100, new StudentComparator());
+        MinHeap<Student> minHeap = new MinHeap(20);
 
         for (Student student : studentList) {
-            studentsQueue.add(student);
+            minHeap.insert(student);
         }
 
-        System.out.println("After Blocking priorityQueue  sort ----");
+        System.out.println("After Min Heap sort ---------- ");
+
+        minHeap.print();
 
         while (true) {
-            Student student = studentsQueue.poll();
+            Student student = minHeap.deleteMin();
             if (student == null) {
                 break;
             }
 
+            System.out.println("After delete :"+student+"  ----------");
+
+            minHeap.print();
+
             System.out.println(student);
         }
     }
+
 }

@@ -7,7 +7,8 @@ package com.gj.dsandalg.priorityqueue;
 public class PriorityQueueTest {
 
     public static void main(String[] args) {
-        PriorityQueueInJava.main();
-        BlockingPriorityQueueInJava.main();
+        PriorityQueueInJava.main(args);
+        BlockingPriorityQueueInJava.main(args);
+        MinHeapTest.main(args);
     }
 }

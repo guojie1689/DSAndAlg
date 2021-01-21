@@ -7,7 +7,7 @@ import java.util.List;
  * @author guojie
  * <p>
  */
-public class Student {
+public class Student implements Comparable {
 
     private String name;
     private int age;
@@ -51,5 +51,18 @@ public class Student {
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Object compareObj) {
+        Student destStudent = (Student) compareObj;
+
+        if (getAge() > destStudent.getAge()) {
+            return 1;
+        } else if (getAge() < destStudent.getAge()) {
+            return -1;
+        }
+
+        return 0;
     }
 }

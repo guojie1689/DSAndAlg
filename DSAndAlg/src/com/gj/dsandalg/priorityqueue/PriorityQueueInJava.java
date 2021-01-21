@@ -1,6 +1,5 @@
 package com.gj.dsandalg.priorityqueue;
 
-import java.util.Comparator;
 import java.util.List;
 import java.util.PriorityQueue;
 
@@ -11,7 +10,7 @@ import java.util.PriorityQueue;
  */
 public class PriorityQueueInJava {
 
-    public static void main() {
+    public static void main(String[] args) {
 
         List<Student> studentList = Student.getTestList();
 

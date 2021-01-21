@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7068453f-f742-4200-9bb4-ec1a747dc1b9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gj/dsandalg/priorityqueue/BlockingPriorityQueueInJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gj/dsandalg/priorityqueue/PriorityQueueInJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gj/dsandalg/priorityqueue/PriorityQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gj/dsandalg/priorityqueue/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gj/dsandalg/priorityqueue/StudentComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gj/dsandalg/heap/MinHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gj/dsandalg/priorityqueue/MinHeapTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSAndAlg/com/gj/dsandalg/link/LinkReverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAndAlg/com/gj/dsandalg/link/LinkReverse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAndAlg/com/gj/dsandalg/priorityqueue/PriorityQueueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAndAlg/com/gj/dsandalg/priorityqueue/PriorityQueueTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAndAlg/com/gj/dsandalg/priorityqueue/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAndAlg/com/gj/dsandalg/priorityqueue/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gj/dsandalg/priorityqueue/BlockingPriorityQueueInJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gj/dsandalg/priorityqueue/BlockingPriorityQueueInJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gj/dsandalg/priorityqueue/PriorityQueueInJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gj/dsandalg/priorityqueue/PriorityQueueInJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gj/dsandalg/priorityqueue/PriorityQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gj/dsandalg/priorityqueue/PriorityQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gj/dsandalg/priorityqueue/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gj/dsandalg/priorityqueue/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +42,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -114,6 +117,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MinHeapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gj.dsandalg.priorityqueue.MinHeapTest" />
+      <module name="DSAndAlg" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gj.dsandalg.priorityqueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PriorityQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gj.dsandalg.priorityqueue.PriorityQueueTest" />
       <module name="DSAndAlg" />
@@ -146,6 +163,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.PriorityQueueTest" />
+        <item itemvalue="Application.MinHeapTest" />
         <item itemvalue="Application.MinHeap" />
         <item itemvalue="Application.LinkReverse" />
       </list>
@@ -165,45 +183,69 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1611129039845">
-      <screen x="0" y="23" width="1440" height="779" />
+    <state x="533" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1611212727276">
+      <screen x="0" y="23" width="1440" height="773" />
     </state>
+    <state x="533" y="100" key="#com.intellij.ide.util.MemberChooser/0.23.1440.772/1440.23.1920.1057@0.23.1440.772" timestamp="1611201002113" />
+    <state x="533" y="100" key="#com.intellij.ide.util.MemberChooser/0.23.1440.773@0.23.1440.773" timestamp="1611212727276" />
     <state x="533" y="101" key="#com.intellij.ide.util.MemberChooser/0.23.1440.779/1440.23.1920.1057@0.23.1440.779" timestamp="1611129039845" />
-    <state width="1419" height="186" key="GridCell.Tab.0.bottom" timestamp="1611198143794">
-      <screen x="0" y="23" width="1440" height="772" />
+    <state width="420" height="466" key="DebuggerActiveHint" timestamp="1611212031928">
+      <screen x="0" y="23" width="1440" height="773" />
     </state>
-    <state width="1419" height="186" key="GridCell.Tab.0.bottom/0.23.1440.772/1440.23.1920.1057@0.23.1440.772" timestamp="1611198143794" />
-    <state width="1419" height="188" key="GridCell.Tab.0.bottom/0.23.1440.773/1440.23.1920.1057@0.23.1440.773" timestamp="1611143048752" />
+    <state width="420" height="466" key="DebuggerActiveHint/0.23.1440.773/1440.23.1920.1057@0.23.1440.773" timestamp="1611212031928" />
+    <state width="1419" height="253" key="GridCell.Tab.0.bottom" timestamp="1611212212012">
+      <screen x="0" y="23" width="1440" height="773" />
+    </state>
+    <state width="1419" height="186" key="GridCell.Tab.0.bottom/0.23.1440.772/1440.23.1920.1057@0.23.1440.772" timestamp="1611207300844" />
+    <state width="1419" height="253" key="GridCell.Tab.0.bottom/0.23.1440.773/1440.23.1920.1057@0.23.1440.773" timestamp="1611212212012" />
     <state width="1419" height="188" key="GridCell.Tab.0.bottom/0.23.1440.779/1440.23.1920.1057@0.23.1440.779" timestamp="1611129226470" />
-    <state width="1419" height="186" key="GridCell.Tab.0.center" timestamp="1611198143793">
-      <screen x="0" y="23" width="1440" height="772" />
+    <state width="1419" height="253" key="GridCell.Tab.0.center" timestamp="1611212212012">
+      <screen x="0" y="23" width="1440" height="773" />
     </state>
-    <state width="1419" height="186" key="GridCell.Tab.0.center/0.23.1440.772/1440.23.1920.1057@0.23.1440.772" timestamp="1611198143793" />
-    <state width="1419" height="188" key="GridCell.Tab.0.center/0.23.1440.773/1440.23.1920.1057@0.23.1440.773" timestamp="1611143048751" />
+    <state width="1419" height="186" key="GridCell.Tab.0.center/0.23.1440.772/1440.23.1920.1057@0.23.1440.772" timestamp="1611207300844" />
+    <state width="1419" height="253" key="GridCell.Tab.0.center/0.23.1440.773/1440.23.1920.1057@0.23.1440.773" timestamp="1611212212012" />
     <state width="1419" height="188" key="GridCell.Tab.0.center/0.23.1440.779/1440.23.1920.1057@0.23.1440.779" timestamp="1611129226469" />
-    <state width="1419" height="186" key="GridCell.Tab.0.left" timestamp="1611198143792">
-      <screen x="0" y="23" width="1440" height="772" />
+    <state width="1419" height="253" key="GridCell.Tab.0.left" timestamp="1611212212011">
+      <screen x="0" y="23" width="1440" height="773" />
     </state>
-    <state width="1419" height="186" key="GridCell.Tab.0.left/0.23.1440.772/1440.23.1920.1057@0.23.1440.772" timestamp="1611198143792" />
-    <state width="1419" height="188" key="GridCell.Tab.0.left/0.23.1440.773/1440.23.1920.1057@0.23.1440.773" timestamp="1611143048751" />
+    <state width="1419" height="186" key="GridCell.Tab.0.left/0.23.1440.772/1440.23.1920.1057@0.23.1440.772" timestamp="1611207300843" />
+    <state width="1419" height="253" key="GridCell.Tab.0.left/0.23.1440.773/1440.23.1920.1057@0.23.1440.773" timestamp="1611212212011" />
     <state width="1419" height="188" key="GridCell.Tab.0.left/0.23.1440.779/1440.23.1920.1057@0.23.1440.779" timestamp="1611129226469" />
-    <state width="1419" height="186" key="GridCell.Tab.0.right" timestamp="1611198143793">
-      <screen x="0" y="23" width="1440" height="772" />
+    <state width="1419" height="253" key="GridCell.Tab.0.right" timestamp="1611212212012">
+      <screen x="0" y="23" width="1440" height="773" />
     </state>
-    <state width="1419" height="186" key="GridCell.Tab.0.right/0.23.1440.772/1440.23.1920.1057@0.23.1440.772" timestamp="1611198143793" />
-    <state width="1419" height="188" key="GridCell.Tab.0.right/0.23.1440.773/1440.23.1920.1057@0.23.1440.773" timestamp="1611143048752" />
+    <state width="1419" height="186" key="GridCell.Tab.0.right/0.23.1440.772/1440.23.1920.1057@0.23.1440.772" timestamp="1611207300844" />
+    <state width="1419" height="253" key="GridCell.Tab.0.right/0.23.1440.773/1440.23.1920.1057@0.23.1440.773" timestamp="1611212212012" />
     <state width="1419" height="188" key="GridCell.Tab.0.right/0.23.1440.779/1440.23.1920.1057@0.23.1440.779" timestamp="1611129226470" />
+    <state width="1419" height="188" key="GridCell.Tab.1.bottom" timestamp="1611212063365">
+      <screen x="0" y="23" width="1440" height="773" />
+    </state>
+    <state width="1419" height="188" key="GridCell.Tab.1.bottom/0.23.1440.773/1440.23.1920.1057@0.23.1440.773" timestamp="1611212063365" />
+    <state width="1419" height="188" key="GridCell.Tab.1.center" timestamp="1611212063365">
+      <screen x="0" y="23" width="1440" height="773" />
+    </state>
+    <state width="1419" height="188" key="GridCell.Tab.1.center/0.23.1440.773/1440.23.1920.1057@0.23.1440.773" timestamp="1611212063365" />
+    <state width="1419" height="188" key="GridCell.Tab.1.left" timestamp="1611212063364">
+      <screen x="0" y="23" width="1440" height="773" />
+    </state>
+    <state width="1419" height="188" key="GridCell.Tab.1.left/0.23.1440.773/1440.23.1920.1057@0.23.1440.773" timestamp="1611212063364" />
+    <state width="1419" height="188" key="GridCell.Tab.1.right" timestamp="1611212063365">
+      <screen x="0" y="23" width="1440" height="773" />
+    </state>
+    <state width="1419" height="188" key="GridCell.Tab.1.right/0.23.1440.773/1440.23.1920.1057@0.23.1440.773" timestamp="1611212063365" />
     <state x="450" y="149" width="540" height="524" key="StructurePopup" timestamp="1611132233902">
       <screen x="0" y="23" width="1440" height="779" />
     </state>
     <state x="450" y="149" width="540" height="524" key="StructurePopup/0.23.1440.779/1440.23.1920.1057@0.23.1440.779" timestamp="1611132233902" />
-    <state x="421" y="136" width="598" height="548" key="find.popup" timestamp="1611129157900">
-      <screen x="0" y="23" width="1440" height="779" />
+    <state x="421" y="135" width="598" height="544" key="find.popup" timestamp="1611207296488">
+      <screen x="0" y="23" width="1440" height="772" />
     </state>
+    <state x="421" y="135" width="598" height="544" key="find.popup/0.23.1440.772/1440.23.1920.1057@0.23.1440.772" timestamp="1611207296488" />
     <state x="421" y="136" width="598" height="548" key="find.popup/0.23.1440.779/1440.23.1920.1057@0.23.1440.779" timestamp="1611129157900" />
-    <state width="413" height="59" key="javadoc.popup.new" timestamp="1611134106569">
-      <screen x="0" y="23" width="1440" height="773" />
+    <state width="413" height="59" key="javadoc.popup.new" timestamp="1611201114349">
+      <screen x="0" y="23" width="1440" height="772" />
     </state>
+    <state width="413" height="59" key="javadoc.popup.new/0.23.1440.772/1440.23.1920.1057@0.23.1440.772" timestamp="1611201114349" />
     <state width="413" height="59" key="javadoc.popup.new/0.23.1440.773/1440.23.1920.1057@0.23.1440.773" timestamp="1611134106569" />
     <state width="413" height="59" key="javadoc.popup.new/0.23.1440.779/1440.23.1920.1057@0.23.1440.779" timestamp="1611133300662" />
     <state x="385" y="185" key="run.anything.popup" timestamp="1611132910081">
