@@ -1,18 +1,23 @@
 package com.gj.dsandalg.heap;
 
 import java.util.AbstractQueue;
+import java.util.ArrayDeque;
+import java.util.ConcurrentModificationException;
+import java.util.Iterator;
+import java.util.NoSuchElementException;
+import java.util.PriorityQueue;
 
 /**
  * @author guojie
  * <p>
  */
-public class MinHeap<T extends Comparable> extends AbstractQueue {
+public class MinHeap<E extends Comparable<E>> extends AbstractQueue<E> {
 
-    private T[] heap;
+    private E[] heap;
     private int size;
 
     public MinHeap(int capacity) {
-        this.heap = (T[]) new Comparable[capacity];
+        this.heap = (E[]) new Comparable[capacity];
         this.size = 0;
     }
 
@@ -21,27 +26,9 @@ public class MinHeap<T extends Comparable> extends AbstractQueue {
     }
 
     private void swap(int parentIndex, int childIndex) {
-        T temp = heap[parentIndex];
+        E temp = heap[parentIndex];
         heap[parentIndex] = heap[childIndex];
         heap[childIndex] = temp;
-    }
-
-    public void insert(T newData) {
-        if (size < heap.length) {
-
-            heap[size] = newData;
-            int current = size++;
-
-            while (heap[current].compareTo(heap[parent(current)]) < 0) {
-
-                swap(parent(current), current);
-                current = parent(current);
-            }
-
-        } else {
-            System.out.println("heap is full !");
-        }
-
     }
 
     private void minHeap(int i) {
@@ -61,35 +48,17 @@ public class MinHeap<T extends Comparable> extends AbstractQueue {
             swap(min, i);
             minHeap(i);
         }
-
-    }
-
-    public T deleteMin() {
-        if (size == 0) {
-            return null;
-        }
-
-        T deletedElement = heap[0];
-
-        heap[0] = heap[size - 1];
-        size--;
-
-        // TODO: control from root to end, on a specific path
-        minHeap(0);
-
-        return deletedElement;
-
     }
 
     public void printArray() {
 
-        for (T element : heap) {
+        for (E element : heap) {
             System.out.print(element + " ");
         }
         System.out.println("");
     }
 
-    // TODO: print parent nodes with their left child and right child
+    // EODO: print parent nodes with their left child and right child
     // 0. Seviye    Parent: 4       Left Child: 8       Right Child: 12
     // 1. Seviye    Parent: 8       Left Child: 48      Right Child: 16
     // 1. Seviye    Parent: 12      Left Child: 24      Right Child: 32
@@ -110,32 +79,62 @@ public class MinHeap<T extends Comparable> extends AbstractQueue {
         }
     }
 
-    public void decreaseKey(int key, int amount) {
 
-        for (int i = 0; i < size; i++) {
+    @Override
+    public Iterator iterator() {
+        return null;
+    }
 
-            if (heap[i].equals(key)) {
-                heap[i] = (T) new Integer(key - amount);
+    @Override
+    public int size() {
+        return size;
+    }
 
-                while (heap[i].compareTo(heap[parent(i)]) < 0) {
-                    swap(parent(i), i);
-                    i = parent(i);
-                }
-                return;
+    @Override
+    public boolean offer(E t) {
+        if (size < heap.length) {
+
+            heap[size] = t;
+            int current = size++;
+
+            while (heap[current].compareTo(heap[parent(current)]) < 0) {
+                swap(parent(current), current);
+                current = parent(current);
             }
+
+            return true;
+
+        } else {
+            System.out.println("heap is full !");
+
+            return false;
         }
     }
 
-    public void increaseKey(int key, int amount) {
-
-        for (int i = 0; i < size; i++) {
-
-            if (heap[i].equals(key)) {
-                heap[i] = (T) new Integer(key + amount);
-
-                minHeap(i);
-                return;
-            }
+    @Override
+    public E poll() {
+        if (size == 0) {
+            return null;
         }
+
+        E deletedElement = heap[0];
+
+        heap[0] = heap[size - 1];
+        size--;
+
+        // EODO: control from root to end, on a specific path
+        minHeap(0);
+
+        return deletedElement;
     }
+
+    @Override
+    public E peek() {
+        if (size == 0) {
+            return null;
+        }
+
+        return heap[0];
+    }
+
 }

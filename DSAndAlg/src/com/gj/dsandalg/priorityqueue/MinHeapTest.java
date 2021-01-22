@@ -16,7 +16,7 @@ public class MinHeapTest {
         MinHeap<Student> minHeap = new MinHeap(20);
 
         for (Student student : studentList) {
-            minHeap.insert(student);
+            minHeap.offer(student);
         }
 
         System.out.println("After Min Heap sort ---------- ");
@@ -24,14 +24,10 @@ public class MinHeapTest {
         minHeap.print();
 
         while (true) {
-            Student student = minHeap.deleteMin();
+            Student student = minHeap.poll();
             if (student == null) {
                 break;
             }
-
-            System.out.println("After delete :"+student+"  ----------");
-
-            minHeap.print();
 
             System.out.println(student);
         }
