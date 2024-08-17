@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7068453f-f742-4200-9bb4-ec1a747dc1b9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/gj/dsandalg/heap/MinHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gj/dsandalg/priorityqueue/MinHeapTest.java" afterDir="false" />
+    <list default="true" id="7068453f-f742-4200-9bb4-ec1a747dc1b9" name="Default" comment="Add selectionsort java file">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSAndAlg/com/gj/dsandalg/priorityqueue/PriorityQueueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAndAlg/com/gj/dsandalg/priorityqueue/PriorityQueueTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAndAlg/com/gj/dsandalg/heap/MinHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAndAlg/com/gj/dsandalg/heap/MinHeap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAndAlg/com/gj/dsandalg/priorityqueue/MinHeapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAndAlg/com/gj/dsandalg/priorityqueue/MinHeapTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSAndAlg/com/gj/dsandalg/priorityqueue/PriorityQueueInJava.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAndAlg/com/gj/dsandalg/priorityqueue/PriorityQueueInJava.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DSAndAlg/com/gj/dsandalg/priorityqueue/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSAndAlg/com/gj/dsandalg/priorityqueue/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gj/dsandalg/priorityqueue/BlockingPriorityQueueInJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gj/dsandalg/priorityqueue/BlockingPriorityQueueInJava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gj/dsandalg/priorityqueue/PriorityQueueInJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gj/dsandalg/priorityqueue/PriorityQueueInJava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gj/dsandalg/priorityqueue/PriorityQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gj/dsandalg/priorityqueue/PriorityQueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gj/dsandalg/priorityqueue/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gj/dsandalg/priorityqueue/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gj/dsandalg/sort/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gj/dsandalg/sort/SelectionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +28,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1" />
     <option name="y" value="1" />
@@ -41,47 +42,45 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BroadPrioritySearch.executor": "Run",
+    "Application.DepthPriorityPath.executor": "Run",
+    "Application.DepthPrioritySearch.executor": "Run",
+    "Application.DivisionFind.executor": "Run",
+    "Application.GraphSample1.executor": "Run",
+    "Application.Heap.executor": "Run",
+    "Application.InsertSort.executor": "Run",
+    "Application.MinHeapSort.executor": "Debug",
+    "Application.MinHeapTest.executor": "Run",
+    "Application.PopSort.executor": "Run",
+    "Application.RedBlackTree.executor": "Run",
+    "Application.SelectionSort.executor": "Run",
+    "Application.TestMain.executor": "Debug",
+    "Application.Topological.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/guojie/Documents/gitproject/DSAndAlg/DSAndAlg"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gj.dsandalg.heap" />
+      <recent name="com.gj.dsandalg.graph.withdirection" />
+      <recent name="com.gj.dsandalg.graph" />
+      <recent name="com.gj.dsandalg.sort" />
       <recent name="com.gj.dsandalg.priorityqueue" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PriorityQueueTest">
+  <component name="RunManager" selected="Application.MinHeapSort">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
@@ -89,13 +88,13 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <configuration name="LinkReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gj.dsandalg.link.LinkReverse" />
+    <configuration name="DepthPriorityPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gj.dsandalg.graph.nodirection.DepthPriorityPath" />
       <module name="DSAndAlg" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gj.dsandalg.link.*" />
+          <option name="PATTERN" value="com.gj.dsandalg.graph.weight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,8 +102,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gj.dsandalg.heap.MinHeap" />
+    <configuration name="GraphSample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gj.dsandalg.graph.nodirection.GraphSample1" />
+      <module name="DSAndAlg" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gj.dsandalg.graph.weight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Heap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gj.dsandalg.heap.Heap" />
       <module name="DSAndAlg" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -117,13 +130,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinHeapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gj.dsandalg.priorityqueue.MinHeapTest" />
+    <configuration name="MinHeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gj.dsandalg.heap.MinHeapSort" />
       <module name="DSAndAlg" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gj.dsandalg.priorityqueue.*" />
+          <option name="PATTERN" value="com.gj.dsandalg.heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,13 +144,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriorityQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gj.dsandalg.priorityqueue.PriorityQueueTest" />
+    <configuration name="Topological" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gj.dsandalg.graph.withdirection.Topological" />
       <module name="DSAndAlg" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gj.dsandalg.priorityqueue.*" />
+          <option name="PATTERN" value="com.gj.dsandalg.graph.withdirection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,6 +160,13 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -162,13 +182,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PriorityQueueTest" />
-        <item itemvalue="Application.MinHeapTest" />
-        <item itemvalue="Application.MinHeap" />
-        <item itemvalue="Application.LinkReverse" />
+        <item itemvalue="Application.MinHeapSort" />
+        <item itemvalue="Application.Heap" />
+        <item itemvalue="Application.Topological" />
+        <item itemvalue="Application.DepthPriorityPath" />
+        <item itemvalue="Application.GraphSample1" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -180,82 +202,41 @@
       <option name="presentableId" value="Default" />
       <updated>1514888636514</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add selectionsort java file">
+      <option name="closed" value="true" />
+      <created>1722231702242</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722231702242</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="533" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1611212727276">
-      <screen x="0" y="23" width="1440" height="773" />
-    </state>
-    <state x="533" y="100" key="#com.intellij.ide.util.MemberChooser/0.23.1440.772/1440.23.1920.1057@0.23.1440.772" timestamp="1611201002113" />
-    <state x="533" y="100" key="#com.intellij.ide.util.MemberChooser/0.23.1440.773@0.23.1440.773" timestamp="1611212727276" />
-    <state x="533" y="101" key="#com.intellij.ide.util.MemberChooser/0.23.1440.779/1440.23.1920.1057@0.23.1440.779" timestamp="1611129039845" />
-    <state width="420" height="466" key="DebuggerActiveHint" timestamp="1611212031928">
-      <screen x="0" y="23" width="1440" height="773" />
-    </state>
-    <state width="420" height="466" key="DebuggerActiveHint/0.23.1440.773/1440.23.1920.1057@0.23.1440.773" timestamp="1611212031928" />
-    <state width="1419" height="253" key="GridCell.Tab.0.bottom" timestamp="1611212212012">
-      <screen x="0" y="23" width="1440" height="773" />
-    </state>
-    <state width="1419" height="186" key="GridCell.Tab.0.bottom/0.23.1440.772/1440.23.1920.1057@0.23.1440.772" timestamp="1611207300844" />
-    <state width="1419" height="253" key="GridCell.Tab.0.bottom/0.23.1440.773/1440.23.1920.1057@0.23.1440.773" timestamp="1611212212012" />
-    <state width="1419" height="188" key="GridCell.Tab.0.bottom/0.23.1440.779/1440.23.1920.1057@0.23.1440.779" timestamp="1611129226470" />
-    <state width="1419" height="253" key="GridCell.Tab.0.center" timestamp="1611212212012">
-      <screen x="0" y="23" width="1440" height="773" />
-    </state>
-    <state width="1419" height="186" key="GridCell.Tab.0.center/0.23.1440.772/1440.23.1920.1057@0.23.1440.772" timestamp="1611207300844" />
-    <state width="1419" height="253" key="GridCell.Tab.0.center/0.23.1440.773/1440.23.1920.1057@0.23.1440.773" timestamp="1611212212012" />
-    <state width="1419" height="188" key="GridCell.Tab.0.center/0.23.1440.779/1440.23.1920.1057@0.23.1440.779" timestamp="1611129226469" />
-    <state width="1419" height="253" key="GridCell.Tab.0.left" timestamp="1611212212011">
-      <screen x="0" y="23" width="1440" height="773" />
-    </state>
-    <state width="1419" height="186" key="GridCell.Tab.0.left/0.23.1440.772/1440.23.1920.1057@0.23.1440.772" timestamp="1611207300843" />
-    <state width="1419" height="253" key="GridCell.Tab.0.left/0.23.1440.773/1440.23.1920.1057@0.23.1440.773" timestamp="1611212212011" />
-    <state width="1419" height="188" key="GridCell.Tab.0.left/0.23.1440.779/1440.23.1920.1057@0.23.1440.779" timestamp="1611129226469" />
-    <state width="1419" height="253" key="GridCell.Tab.0.right" timestamp="1611212212012">
-      <screen x="0" y="23" width="1440" height="773" />
-    </state>
-    <state width="1419" height="186" key="GridCell.Tab.0.right/0.23.1440.772/1440.23.1920.1057@0.23.1440.772" timestamp="1611207300844" />
-    <state width="1419" height="253" key="GridCell.Tab.0.right/0.23.1440.773/1440.23.1920.1057@0.23.1440.773" timestamp="1611212212012" />
-    <state width="1419" height="188" key="GridCell.Tab.0.right/0.23.1440.779/1440.23.1920.1057@0.23.1440.779" timestamp="1611129226470" />
-    <state width="1419" height="188" key="GridCell.Tab.1.bottom" timestamp="1611212063365">
-      <screen x="0" y="23" width="1440" height="773" />
-    </state>
-    <state width="1419" height="188" key="GridCell.Tab.1.bottom/0.23.1440.773/1440.23.1920.1057@0.23.1440.773" timestamp="1611212063365" />
-    <state width="1419" height="188" key="GridCell.Tab.1.center" timestamp="1611212063365">
-      <screen x="0" y="23" width="1440" height="773" />
-    </state>
-    <state width="1419" height="188" key="GridCell.Tab.1.center/0.23.1440.773/1440.23.1920.1057@0.23.1440.773" timestamp="1611212063365" />
-    <state width="1419" height="188" key="GridCell.Tab.1.left" timestamp="1611212063364">
-      <screen x="0" y="23" width="1440" height="773" />
-    </state>
-    <state width="1419" height="188" key="GridCell.Tab.1.left/0.23.1440.773/1440.23.1920.1057@0.23.1440.773" timestamp="1611212063364" />
-    <state width="1419" height="188" key="GridCell.Tab.1.right" timestamp="1611212063365">
-      <screen x="0" y="23" width="1440" height="773" />
-    </state>
-    <state width="1419" height="188" key="GridCell.Tab.1.right/0.23.1440.773/1440.23.1920.1057@0.23.1440.773" timestamp="1611212063365" />
-    <state x="450" y="149" width="540" height="524" key="StructurePopup" timestamp="1611132233902">
-      <screen x="0" y="23" width="1440" height="779" />
-    </state>
-    <state x="450" y="149" width="540" height="524" key="StructurePopup/0.23.1440.779/1440.23.1920.1057@0.23.1440.779" timestamp="1611132233902" />
-    <state x="421" y="135" width="598" height="544" key="find.popup" timestamp="1611207296488">
-      <screen x="0" y="23" width="1440" height="772" />
-    </state>
-    <state x="421" y="135" width="598" height="544" key="find.popup/0.23.1440.772/1440.23.1920.1057@0.23.1440.772" timestamp="1611207296488" />
-    <state x="421" y="136" width="598" height="548" key="find.popup/0.23.1440.779/1440.23.1920.1057@0.23.1440.779" timestamp="1611129157900" />
-    <state width="413" height="59" key="javadoc.popup.new" timestamp="1611201114349">
-      <screen x="0" y="23" width="1440" height="772" />
-    </state>
-    <state width="413" height="59" key="javadoc.popup.new/0.23.1440.772/1440.23.1920.1057@0.23.1440.772" timestamp="1611201114349" />
-    <state width="413" height="59" key="javadoc.popup.new/0.23.1440.773/1440.23.1920.1057@0.23.1440.773" timestamp="1611134106569" />
-    <state width="413" height="59" key="javadoc.popup.new/0.23.1440.779/1440.23.1920.1057@0.23.1440.779" timestamp="1611133300662" />
-    <state x="385" y="185" key="run.anything.popup" timestamp="1611132910081">
-      <screen x="0" y="23" width="1440" height="779" />
-    </state>
-    <state x="385" y="185" key="run.anything.popup/0.23.1440.779/1440.23.1920.1057@0.23.1440.779" timestamp="1611132910081" />
-    <state x="385" y="126" width="670" height="676" key="search.everywhere.popup" timestamp="1611133001824">
-      <screen x="0" y="23" width="1440" height="779" />
-    </state>
-    <state x="385" y="126" width="670" height="676" key="search.everywhere.popup/0.23.1440.779/1440.23.1920.1057@0.23.1440.779" timestamp="1611133001824" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add selectionsort java file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add selectionsort java file" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gj/dsandalg/map/TestMain.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gj/dsandalg/graph/withdirection/DepthPriorityOrder.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gj/dsandalg/graph/withdirection/DepthPriorityOrder.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>
